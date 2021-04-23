@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Game Website</title> 
+ <!--Stylesheet-->
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<!--lightslider css-->
+<link rel="stylesheet" href="css/lightslider.css">
+<!--jqeury-->
+<script  src="js/JQuery.js"></script>
+<!--fav-icon-->
+<link rel="shortcut icon" href="images/game-icon.png">
+  <!--Script for icons social media--> 
+  <script src = "https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav> 
+        <!--social-links-and-phone-number----------------->
+ <div class="social-call">
+     <!--social-links--->
+     <div class="social">
+         <a href="#"><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a>
+         <a href="#"><i class="fab fa-youtube"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+     </div>
+     <!--phone-number------>
+     <div class="phone">
+        <b><span>Call: +0830781622</span></b>
+     </div>
+ </div>
+ <!--Menu Bar-->
+ <div class = "navigation">
+     <!--logo-->
+     <a href="#" class=logo>
+        <img src="images/grimm.png"/>
+     </a>
+     <!--menu-->
+     <ul class="menu">
+     <li><a href="#">Playstation</a></li>
+     <li><a href="#">Xbox</a></li>
+     <li><a href="#">Nintendo</a></li>
+     <li><a href="#">PC</a></li>
+     <li><a href="#">News</a></li>
+    </ul>
+
+     <!--right-menu----------->
+     <div class="right-menu">
+        <a href="javascript:void(0);" class="search">
+            <i class="fas fa-search"></i>
+        </a>
+        <a href="javascript:void(0);" class="user">
+            <i class="far fa-user"></i>
+        </a>
+        <a href="#">
+            <i class="fas fa-shopping-cart">
+                <span class="num-cart-product">0</span>
+            </i>
+        </a>
+    </div>
+    </div>
+</nav>
+
+<!--search-bar---->
+<div class="search-bar">
+    
+    <!--search-input---->
+    <div class="search-input">
+    <input type="text" placeholder="Search For Item or News" name="search" />
+    <!--cancel-btn--->
+    <a href="javascript:void(0);" class="search-cancel">
+        <i class="fas fa-times"></i>
+    </a>
+    
+</div>
+</div>
+  <!---login-and-sign-up------------------>
+  <div class="form">
+    <!--login---------->
+    <div class="login-form">
+        <!--cancel-btn---------------->
+        <a href="javascript:void(0);" class="form-cancel">
+            <i class="fas fa-times"></i>
+        </a>
+        <strong>Log In</strong>
+        <!--inputs-->
+        <form>
+            <input type="email" name="email" placeholder="Example@gmail.com" required/>
+            <input type="password" name="password" placeholder="Password" required/>
+            <input type="submit" value="Log In"/>
+        </form>
+        <!--forget-and-sign-up-btn-->
+        <div class="form-btns">
+            <a href="#" class="forget">Forget Your Password?</a>
+            <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+        </div>
+    </div>
+        <!--Sign-up------>
+        <div class="sign-up-form">
+            <!--cancel-btn------->
+        <a href="javascript:void(0);" class="form-cancel">
+            <i class="fas fa-times"></i>
+        </a>
+            <strong>Sign Up</strong>
+            <!--inputs-->
+            <form>
+                <input type="text" name="fullname" placeholder="Full Name" required/>
+                <input type="email" name="email" placeholder="Example@gmail.com" required/>
+                <input type="password" name="password" placeholder="Password" required/>
+                <input type="submit" value="Sign Up"/>
+            </form>
+            <!--forget-and-sign-up-btn-->
+            <div class="form-btns">
+                <a href="javascript:void(0);" class="already-account">
+                    Already Have Account?</a>
+
+            </div>
+        </div>
+</div>
+
+  <!-----------full-slider----------------------------->
+  <ul id="adaptive" class="cs-hidden">   
+    <!--box-1--------------------------->
+    <li class="item-a">
+        <!---box------------------->
+<div class="full-slider-box f-slide-1">
+    <div class="f-slider-text-container">
+    <div class="f-slider-text">
+        <a href="https://www.hollowknightsilksong.com/" class="f-slider-btn">Read Now</a>
+    </div>
+    </div>
+
+</div>
+</li>
+ <!--box-2--------------------------->
+    <li class="item-b">
+        <!---box------------------->
+<div class="full-slider-box f-slide-2">
+    
+    <div class="f-slider-text-container">
+    <div class="f-slider-text">
+        <a href="#" class="f-slider-btn">Read Now</a>
+    </div>
+    </div>
+
+</div>
+</li>
+     <!--box-3--------------------------->
+     <li class="item-c">
+        <!---box------------------->
+<div class="full-slider-box f-slide-3">
+    
+    <div class="f-slider-text-container">
+    <div class="f-slider-text">
+        
+        <a href="https://nier.square-enix-games.com/en-us/" class="f-slider-btn">Read Now</a>
+    </div>
+    </div>
+
+</div>
+</li>
+ </ul>
+ <!--product-categories-slider---------------------->
+ <ul id="autoWidth" class="container" class="cs-hidden">
+    <!--box-1--------------------->
+    <li class="item">
+        <div class="feature-box">
+            <a href="#">
+                <img src="images/gameF_1.png">
+            </a>
+        </div>
+        <span>Playstation</span>
+    </li>
+    <!--box-2--------------------->
+    <li class="item">
+        <div class="feature-box">
+            <a href="#">
+                <img src="images/gameF_2.png">
+            </a>
+        </div>
+        <span>Xbox</span>
+    </li>
+    <!--box-3--------------------->
+    <li class="item">
+        <div class="feature-box">
+            <a href="#">
+                <img src="images/gameF_3.png">
+            </a>
+        </div>
+        <span>Pc</span>
+    </li>
+    <!--box-4--------------------->
+    <li class="item">
+        <div class="feature-box">
+            <a href="#">
+                <img src="images/gameF_4.png">
+            </a>
+        </div>
+        <span>Controllers</span>
+    </li>
+    <!--box-5--------------------->
+    <li class="item">
+        <div class="feature-box">
+            <a href="#">
+                <img src="images/gameF_5.png">
+            </a>
+        </div>
+        <span>News</span>
+    </li>
+    <!--box-6--------------------->
+    <li class="item">
+        <div class="feature-box">
+            <a href="#">
+                <img src="images/gameF_6.png">
+            </a>
+        </div>
+        <span>Merch</span>
+    </li>
+    
+  </ul>
+
+
+  <!--js-link--------------------->
+  <script src="js/Jquery.js"></script>
+  <script src="js/lightslider.js"></script>
+
+<!--Script-->
+<script tpye="text/javascript">
+
+  /*-----For Search Bar-----------------------------*/
+  $(document).on('click','.search',function(){
+        $('.search-bar').addClass('search-bar-active')
+    });
+ 
+    $(document).on('click','.search-cancel',function(){
+        $('.search-bar').removeClass('search-bar-active')
+    });
+  
+   /*---For Login and Sign-up----------------------------*/
+   $(document).on('click','.user,.already-account',function(){
+        $('.form').addClass('login-active').removeClass('sign-up-active')
+    });
+ 
+    $(document).on('click','.sign-up-btn',function(){
+        $('.form').addClass('sign-up-active').removeClass('login-active')
+    });
+ 
+    $(document).on('click','.form-cancel',function(){
+        $('.form').removeClass('login-active').removeClass('sign-up-active')
+    });
+
+      /*----Full Page Slider---------------*/
+ 
+      $(document).ready(function() {
+    $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        auto:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+});
+/*--For-Product-SLider----------------*/
+$(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+  
+
+</script>
+</body>
+</html>
